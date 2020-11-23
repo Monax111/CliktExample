@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  helper:
+    image: demo-helper:local
+    environment:
+      MY_JQL: "project = MY AND component = Java AND status = Ready"
